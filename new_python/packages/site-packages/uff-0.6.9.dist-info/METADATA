@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: uff
+Version: 0.6.9
+Summary: Toolkit for working with the Universal Framwork Format (UFF). Provides a converter from the tensorflow graph format to UFFwith support for more frameworks coming.
+Home-page: https://developer.nvidia.com/tensorrt
+Author: NVIDIA
+Author-email: svc_tensorrt@nvidia.com
+License: NVIDIA Software License
+Keywords: deep learning Universal Framework Format UFF
+Platform: UNKNOWN
+Classifier: Development Status :: 3  - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artifical Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Developement :: Libraries
+Requires-Dist: numpy (>=1.11.0)
+Requires-Dist: protobuf (>=3.3.0)
+Provides-Extra: tf
+Requires-Dist: tensorflow (>=1.0.0) ; extra == 'tf'
+Provides-Extra: tf-gpu
+Requires-Dist: tensorflow-gpu (>=1.0.0) ; extra == 'tf-gpu'
+
+UNKNOWN
+
+

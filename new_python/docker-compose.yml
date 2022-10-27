@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    app:
+        build: 
+            dockerfile: DOCKERFILE
+            context: ./
+
+        volumes:
+        - ./app:/app
+        - ./packages/site-packages:/usr/local/lib/python3.9/site-packages
+        - ./packages/dist-packages:/usr/local/lib/python3.9/dist-packages
+
+        working_dir: /app/

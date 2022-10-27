@@ -1,0 +1,13 @@
+
+[dev]
+Sphinx>=4.1.1
+black>=19.10b0
+colorama>=0.3.4
+docutils==0.16
+flake8>=3.7.7
+isort>=5.1.1
+pytest-cov>=2.7.1
+pytest>=4.6.2
+sphinx-autobuild>=0.7.1
+sphinx-rtd-theme>=0.4.3
+tox>=3.9.0
